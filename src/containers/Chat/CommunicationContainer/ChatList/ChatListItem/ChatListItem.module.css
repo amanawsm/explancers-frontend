@@ -1,0 +1,81 @@
+.ChatListItemWrapper {
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.Active {
+  background-color: cyan;
+  cursor: disabled;
+}
+
+.avatar {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.message-room-info p {
+  margin-bottom: 0rem;
+}
+
+
+.SideBarBody {
+  position: relative;
+  padding: 10px !important;
+  border-bottom: 1px solid #f7f7f7;
+  height: 72px;
+  margin: 0 !important;
+  cursor: pointer;
+}
+
+.SideBarBody:hover {
+  background-color: #f2f2f2;
+}
+
+.SideBarAvatar {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.AvatarIcon img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.SideBarMain {
+  padding: 0 !important;
+}
+
+.SideBarMain .SideBarMainRow {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.SideBarRoomName {
+  padding: 0px !important;
+}
+
+.SideBarDescription {
+  padding: 0px !important;
+}
+
+.NameMeta {
+  font-size: 100%;
+  padding: 1% !important;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.SideBarTime {
+  padding: 10px !important;
+}
+
+.TimeMeta {
+  text-align: right;
+  font-size: 12px;
+  padding: 1% !important;
+  color: rgba(0, 0, 0, .4);
+  vertical-align: baseline;
+}

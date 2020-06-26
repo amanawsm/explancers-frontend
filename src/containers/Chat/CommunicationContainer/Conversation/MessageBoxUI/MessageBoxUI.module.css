@@ -1,0 +1,131 @@
+/* Adding Dark Class will show message UI for Right Side i.e Self Message Box */
+.Darker {
+  border-color: #ccc;
+  background-color: #ddd;
+  display: block !important;
+}
+
+.Darker label {
+  float: right;
+}
+
+.Darker .UserAvatar {
+  float: right !important;
+  margin-left: 20px;
+  margin-right: 0px !important;
+}
+
+.Darker .ImageHeader {
+  float: right !important;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.Darker .MessageSendImageViewer {
+  float: right !important;
+  max-width: 100px;
+  max-width: 200px;
+}
+
+.Darker .MessageBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.Darker .MessageBodyWrapper .UserNameLabel {
+  float: right !important;
+}
+
+.Message {
+  /* border: 2px solid #dedede; */
+  background-color: #f1f1f1;
+  /* border-radius: 5px; */
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+}
+
+.Message::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Message .UserAvatar {
+  float: left;
+  max-width: 50px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.Message .ImageHeader {
+  float: left;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.Message .MessageSendImageViewer {
+  float: left;
+  max-height: 100px;
+  max-width: 200px;
+}
+
+.Message p {
+  word-break: break-word;
+}
+
+.Message .MessageBodyWrapper {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 100px);
+}
+
+.Message .MessageBodyWrapper .UserNameLabel {
+  float: left;
+}
+
+.Message .MessageBodyWrapper p {
+  white-space: pre-wrap;
+}
+
+.TimeRight {
+  float: right;
+  color: #aaa;
+}
+
+.TimeLeft {
+  float: left;
+  color: #999;
+}
+
+.ImageHeader {
+  position: relative;
+}
+
+.Online {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #4cd137;
+  border-radius: 50%;
+  bottom: 0.2em;
+  right: 0.4em;
+  border: 1.5px solid white;
+}
+
+.Offline {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #687267;
+  border-radius: 50%;
+  bottom: 0.2em;
+  right: 0.4em;
+  border: 1.5px solid white;
+}

@@ -1,0 +1,13 @@
+.Author {
+  text-align: center;
+}
+
+.Author img {
+  border-radius: 53px;
+  width: 100px;
+  height: 100px;
+}
+
+.AboutMe {
+  white-space: pre-line;
+}

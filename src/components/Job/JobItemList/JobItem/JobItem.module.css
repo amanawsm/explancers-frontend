@@ -1,0 +1,16 @@
+.JobRequirement pre {
+  white-space: pre-wrap;
+}
+
+.JobTypeHourly {
+  display: flow-root;
+}
+
+.JobTypeFixed {
+    display: flow-root;
+}
+
+.JobCard {
+  cursor: pointer;
+  user-select: none;
+}

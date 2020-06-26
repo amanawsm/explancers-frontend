@@ -1,0 +1,44 @@
+/* Heading */
+.Heading {
+    padding: 10px 16px 10px 15px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #eee;
+    z-index: 1000;
+  }
+  
+  .HeadingAvatar {
+    padding: 0;
+    cursor: pointer;
+  
+  }
+  
+  .HeadingAvatarIcon img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .HeadingCompose {
+    padding: 0;
+  }
+  
+  .HeadingCompose i {
+    text-align: center;
+    padding: 5px;
+    color: #93918f;
+    cursor: pointer;
+  }
+  
+  .HeadingDot {
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  .HeadingDot i {
+    text-align: right;
+    padding: 5px;
+    color: #93918f;
+    cursor: pointer;
+  }

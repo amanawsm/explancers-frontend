@@ -1,0 +1,17 @@
+.ImageContainer {
+    position: relative;
+	display: inline-block;
+}
+
+.ImageContainer .Edit {
+    padding-top: 7px;	
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.ImageContainer .Avatar {
+	width: 150px;
+	height: 150px;
+}
