@@ -5,7 +5,7 @@ class ChatSocketServer {
     
     socket = null;
     eventEmitter = new events.EventEmitter();
-    baseURL = process.env.NODE_ENV === 'development' ? "http://localhost:3002" : 'https://explancers-node-backend.herokuapp.com';
+    baseURL = process.env.NODE_ENV === 'development' ? "http://localhost:3000" : 'http://localhost:3000';
 
     subscriptions = [];
     // Connecting to Socket Server

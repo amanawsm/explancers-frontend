@@ -14,7 +14,7 @@ export const notificationOptions = {
 }
 
 // Update production URL to your server URL
-export const SERVER_BASE_URL = process.env.NODE_ENV === 'development' ? "http://localhost:3002" : "http://localhost:3000";
+export const SERVER_BASE_URL = process.env.NODE_ENV === 'development' ? "http://localhost:3000" : "http://localhost:3000";
 
 export const USERS_API = '/users';
 export const AVATAR_API = '/avatar';
