@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   establishMessageServerConnection = async () => {
-    console.log('Establishing Message Server Connection');
+    console.log('Establishing Messages Server Connection');
 
     try {
 
